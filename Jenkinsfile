@@ -6,6 +6,10 @@ pipeline {
         DEMO_URL = "google.com"
     }
 
+    options {
+        ansiColor('xterm')
+    }
+
     stages {
         stage('Hello-1') {
             steps {
